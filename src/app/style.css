@@ -1,0 +1,250 @@
+.hero {
+  position: relative;
+}
+
+.img__hero {
+  position: relative;
+}
+.img__hero .transparent__noir {
+  background-color: rgba(0, 0, 0, 0.46);
+  position: absolute;
+  z-index: -1;
+  height: 50rem;
+  width: 100%;
+  top: -7rem;
+}
+.img__hero img {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  object-fit: cover;
+  height: 50rem;
+  top: -7rem;
+}
+.content__hero {
+  color: white;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;
+}
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  line-height: 72px;
+  letter-spacing: -0.4px;
+  text-align: center;
+}
+
+.title__hero-span {
+  color: #8ad0de;
+}
+
+.form__principale {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Commande Page Styling */
+.commande__hero {
+  position: relative;
+  top: -7rem;
+  height: 18rem;
+  z-index: -1;
+}
+.commande__hero .commande__background {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 18rem;
+}
+.commande__hero .hero__text {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+.commande__hero .hero__text p {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: white;
+}
+.commande__container .red__p {
+  margin: 0rem 4.37rem 2rem;
+  background-color: #f74440;
+  color: white;
+  padding: 2.87rem;
+}
+.commande__container .red__p p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
+
+/* Choose Van Section */
+.choose__van {
+  display: flex;
+  margin: 2rem 4.37rem;
+}
+.choose__van .choose__van-left {
+  margin-right: 4rem;
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+}
+.choose__van .choose__van-right {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.choose__van .choose__van-right .price-box {
+  box-shadow: 0px 4px 7.8px 0px #00000040;
+  background-color: #267e91;
+  color: white;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.choose__van .choose__van-right .price-box p {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.4px;
+}
+.choose__van .choose__van-right .van-arrival-detail-box {
+  box-shadow: 2px 4px 8.8px 0px rgba(0, 0, 0, 0.25);
+  height: 21rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.choose__van .choose__van-right .van-arrival-detail-box .edit-icon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.choose__van .choose__van-right .van-arrival-detail-box .detail-date {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+.choose__van .choose__van-right .van-arrival-detail-box .detail-date p {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  color: #267e91;
+}
+.choose__van .choose__van-right .van-arrival-detail-box .van-departure-arrived {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 2rem;
+}
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-departure,
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-arrived {
+  display: flex;
+  margin-bottom: 1rem;
+}
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-departure
+  img,
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-arrived
+  img {
+  height: 1.9rem;
+  width: 1.68rem;
+}
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-departure
+  .van-departure-content,
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-arrived
+  .van-arrived-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-departure
+  .van-departure-content
+  .van-content-title,
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-arrived
+  .van-arrived-content
+  .van-content-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.4px;
+  margin-bottom: 1rem;
+}
+
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-departure
+  .van-departure-content
+  .van-content-text,
+.choose__van
+  .choose__van-right
+  .van-arrival-detail-box
+  .van-departure-arrived
+  .van-arrived
+  .van-arrived-content
+  .van-content-text {
+  color: #383838;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.4px;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+}
