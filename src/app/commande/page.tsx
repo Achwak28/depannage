@@ -10,16 +10,16 @@ const page = () => {
     const [selectedItemIndex2, setSelectedItemIndex2] = useState(0);
     const [selectedItemIndex3, setSelectedItemIndex3] = useState(0);
 
-    const handleItemClick = (index) => {
+    const handleItemClick = (index : number) => {
         setSelectedItemIndex(index);
     };
 
 
 
-    const handleItemClick2 = (index) => {
+    const handleItemClick2 = (index : number) => {
         setSelectedItemIndex2(index);
     };
-    const handleItemClick3 = (index) => {
+    const handleItemClick3 = (index : number) => {
         setSelectedItemIndex3(index);
     };
     return <div className="commande__container">
